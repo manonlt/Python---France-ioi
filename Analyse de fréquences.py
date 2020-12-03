@@ -16,4 +16,13 @@ for mot in phrase.split():
 for i in range(max(liste) + 1):
   if liste.count(i) != 0:
     print(i, ':', liste.count(i))
+    
+    
+ # output :
+# 2 : 3
+# 3 : 1
+# 4 : 3
+# 5 : 2
+# 6 : 5
+# 9 : 1
         
